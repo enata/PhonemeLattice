@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonemeLattice.Core", "PhonemeLattice.Core\PhonemeLattice.Core.csproj", "{FE90492F-3EB6-417E-AE2A-87BF5A324830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonemeLattice.DataProcessing", "PhonemeLattice.DataProcessing\PhonemeLattice.DataProcessing.csproj", "{BF751F31-9312-4F7B-95C9-A0CBFF4A1535}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DE4268C8-E138-47AC-B995-5A2F4FDC3A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonemeLattice.Tests.DataProcessing", "PhonemeLattice.Tests.DataProcessing\PhonemeLattice.Tests.DataProcessing.csproj", "{D4E84A15-D645-49D7-AF1A-BCBDDB01AEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonemeLattice.Lattice", "PhonemeLattice.Lattice\PhonemeLattice.Lattice.csproj", "{9F3FDDBF-D526-430E-A7A8-26FF767233DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonemeLattice.Tests.Lattice", "PhonemeLattice.Tests.Lattice\PhonemeLattice.Tests.Lattice.csproj", "{72FCB8FC-9B85-4A47-A452-47111FA11EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhonemeLattice.External", "PhonemeLattice.External\PhonemeLattice.External.csproj", "{1243333F-7475-40CB-8738-DAEA991C40B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE90492F-3EB6-417E-AE2A-87BF5A324830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE90492F-3EB6-417E-AE2A-87BF5A324830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE90492F-3EB6-417E-AE2A-87BF5A324830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE90492F-3EB6-417E-AE2A-87BF5A324830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF751F31-9312-4F7B-95C9-A0CBFF4A1535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF751F31-9312-4F7B-95C9-A0CBFF4A1535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF751F31-9312-4F7B-95C9-A0CBFF4A1535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF751F31-9312-4F7B-95C9-A0CBFF4A1535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E84A15-D645-49D7-AF1A-BCBDDB01AEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E84A15-D645-49D7-AF1A-BCBDDB01AEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E84A15-D645-49D7-AF1A-BCBDDB01AEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E84A15-D645-49D7-AF1A-BCBDDB01AEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3FDDBF-D526-430E-A7A8-26FF767233DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3FDDBF-D526-430E-A7A8-26FF767233DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3FDDBF-D526-430E-A7A8-26FF767233DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3FDDBF-D526-430E-A7A8-26FF767233DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FCB8FC-9B85-4A47-A452-47111FA11EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FCB8FC-9B85-4A47-A452-47111FA11EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FCB8FC-9B85-4A47-A452-47111FA11EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FCB8FC-9B85-4A47-A452-47111FA11EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1243333F-7475-40CB-8738-DAEA991C40B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1243333F-7475-40CB-8738-DAEA991C40B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1243333F-7475-40CB-8738-DAEA991C40B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1243333F-7475-40CB-8738-DAEA991C40B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4E84A15-D645-49D7-AF1A-BCBDDB01AEE9} = {DE4268C8-E138-47AC-B995-5A2F4FDC3A20}
+		{72FCB8FC-9B85-4A47-A452-47111FA11EE2} = {DE4268C8-E138-47AC-B995-5A2F4FDC3A20}
+	EndGlobalSection
+EndGlobal
